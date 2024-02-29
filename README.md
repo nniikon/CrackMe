@@ -38,6 +38,8 @@ As you can see, it stores data directly on the stack without any limitations - i
 
 We’re facing a typical stack overflow vulnerability. The main idea of the exploit is in changing the return address. By overwriting it with our own value, we can redirect program execution to a location within the stack that we’ve carefully inputted beforehand.
 
+![Function that takes the input](/example.png)
+
 For example, this input will trick the program into thinking that the return address is "FFB0", but in reality, it zeros out the ax registers and jumps out of the function as if nothing happened.
 
 # Automatisation
