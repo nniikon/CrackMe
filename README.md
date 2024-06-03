@@ -44,6 +44,10 @@ For example, this input will trick the program into thinking that the return add
 
 # Automatisation
 
+<p align='center'>
+    <img src="eva.gif" alt="drawing" width="800"/>
+</p>
+
 In order to make the process of patching even easier, I wrote a simple C application that can do it in two clicks.
 
 ## Prerequisites
@@ -61,8 +65,6 @@ cd CrackMe/crack/
 make
 ./crack
 ```
-
-![](/gif.gif)
 
 Hope you enjoyed this problem!
 
