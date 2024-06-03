@@ -26,7 +26,7 @@ It's very convenient, we can change one instruction in order for this to work.
 ```
 jnz Success
 ```
-By changing ```jz``` to ```jnz``` we made the program think that the incorrect password is actually correct. Done.
+By changing ``jz`` to ``jnz`` we made the program think that the incorrect password is actually correct. Done.
 
 ## Method 2. Exploiting.
 
@@ -51,15 +51,18 @@ In order to make the process of patching even easier, I wrote a simple C applica
 In order to build the application, you must have GTK3.0 and libvlc installed:
 
 ```
-sudo apt-get install libgtk-3-dev
-sudo apt-get install libvlc-dev
+sudo apt-get install libgtk-3-dev libvlc-dev
 ```
 
 ## Build and run
 ```
-git clone https://github.com/nniikon/CrackMe
-cd crack
-make run
+git clone git@github.com:nniikon/CrackMe.git
+cd CrackMe/crack/
+make
+./crack
 ```
 
+![](/gif.gif)
+
 Hope you enjoyed this problem!
+
